@@ -1,0 +1,127 @@
+/* Estilo general de la Hero Section */
+.hero {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    display: flex; /* Flexbox para organizar columnas */
+    justify-content: space-between; /* Espaciado entre texto e imagen */
+    align-items: center; /* Centrado vertical */
+    padding: 50px; /* Espaciado interior */
+  }
+  
+  /* Encabezado */
+  .hero-header {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Logo a la izquierda, navbar a la derecha */
+    align-items: center;
+    padding: 0 50px;
+    z-index: 10;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007bff; /* Azul para el logo */
+  }
+  
+  .navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #007bff; /* Azul en hover */
+  }
+  
+  /* Texto principal */
+  .hero-content {
+    display: flex;
+    width: 100%;
+    max-width: 1200px; /* Limitar el ancho máximo */
+    margin: 0 auto; /* Centrar el contenido */
+  }
+  
+  .text-content {
+    flex: 1; /* Ocupa la mitad del espacio */
+  }
+  
+  .text-content p {
+    font-size: 1.5rem;
+    color: #007bff; /* Azul */
+  }
+  
+  .text-content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .text-content h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 10px 0;
+    color: #aaa; /* Gris */
+  }
+  
+  .social-icons {
+    margin: 20px 0;
+  }
+  
+  .social-icons span {
+    display: inline-block;
+    background-color: #007bff; /* Azul */
+    color: #fff;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icons span:hover {
+    background-color: #0056b3; /* Azul más oscuro en hover */
+  }
+  
+  /* Botones */
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Azul más oscuro en hover */
+  }
+  
+  /* Imagen */
+  .image-content {
+    flex: 1; /* Ocupa la otra mitad del espacio */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-content img {
+    max-width: 400px;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Sombra */
+  }
+  
